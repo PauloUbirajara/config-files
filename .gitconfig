@@ -1,0 +1,17 @@
+[credential]
+    helper = store
+[user]
+    email = ubirajara3@hotmail.com
+    name = PauloUbirajara
+[core]
+    editor = vim
+[alias]
+    s = !git status -s # Mostrar arquivos modificados de forma simples
+    c = !git add --all && git commit -m
+    l = !git log --pretty=format:'%C(bold)%C(red)%h%C(yellow)%d %s - %C(dim)%C(green)%cn | %C(blue)%cr'
+
+    # d -> Mensagem
+    # cn -> Committer name
+    # cr -> Relative commit date
+    # H -> Hash completo
+    # h -> Hash reduzido
