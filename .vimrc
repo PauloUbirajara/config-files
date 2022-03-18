@@ -14,7 +14,7 @@ filetype indent on
 syntax on
 
 " Add numbers to each line on the left-hand side.
-" set number
+set number
 set relativenumber  " Enable relative line numbers
 
 " Set shift width to 4 spaces.
@@ -94,28 +94,16 @@ colorscheme onedark
 
 call plug#begin('~/.vim/plugged')
  
-Plug 'preservim/nerdtree'
 Plug 'mattn/emmet-vim'
 
 call plug#end()
 
 " }}}
 " MAPPINGS --------------------------------------------------------------- {{{
-
-" Press the space bar to type the : character in command mode.
-nnoremap <space> :
-
-" NERDTree specific mappings.
-" Map the F3 key to toggle NERDTree open and close.
-nnoremap <F3> :NERDTreeToggle<cr>
-
-" Have nerdtree ignore certain files and directories.
-let NERDTreeIgnore=['\.git$', '\.jpg$', '\.mp4$', '\.ogg$', '\.iso$', '\.pdf$', '\.pyc$', '\.odt$', '\.png$', '\.gif$', '\.db$']
-
-" }}}
-
 let g:user_emmet_install_global = 0
 autocmd FileType html,css EmmetInstall
+" }}}
+
 " VIMSCRIPT -------------------------------------------------------------- {{{
 
 " This will enable code folding.
