@@ -1,3 +1,0 @@
-[submodule "plugged/emmet-vim"]
-	path = plugged/emmet-vim
-	url = https://github.com/PauloUbirajara/vimfiles.git
