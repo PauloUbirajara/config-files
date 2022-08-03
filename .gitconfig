@@ -7,6 +7,7 @@
     editor = vim
 [alias]
     s = !git status -s # Mostrar arquivos modificados de forma simples
+    b = !git branch # Mostrar branches
     c = !git add --all && git commit -m
     l = !git log --pretty=format:'%C(bold)%C(red)%h%C(yellow)%d %s - %C(dim)%C(green)%cn | %C(blue)%cr'
 
